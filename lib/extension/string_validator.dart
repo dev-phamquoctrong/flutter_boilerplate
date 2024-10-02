@@ -1,7 +1,7 @@
-mixin Validator {
-  bool isEmail(String value) {
+extension StringValidator on String {
+  bool isEmail() {
     return RegExp(
             r"^[a-zA-Z0-9.a-zA-Z0-9.!#$%&'*+-/=?^_`{|}~]+@[a-zA-Z0-9]+\.[a-zA-Z]+")
-        .hasMatch(value);
+        .hasMatch(this);
   }
 }

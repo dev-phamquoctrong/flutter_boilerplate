@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_boilerplate/presentation/theme/theme_manager.dart';
+import 'package:flutter_boilerplate/presentation/theme/app_theme_manager.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class ThemeSettingScreen extends ConsumerWidget {

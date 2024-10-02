@@ -5,11 +5,11 @@ import 'package:flutter_boilerplate/presentation/ui/widgets/not_found_data_view.
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../constants/app_strings.dart';
-import '../../../utils/screen_util_mixin.dart';
+import '../../../mixin/modal_mixin.dart';
 import '../controller/user_controller.dart';
 import 'widgets/user_item.dart';
 
-class UserScreen extends ConsumerWidget with ScreenUtilMixin {
+class UserScreen extends ConsumerWidget with ModalMixin {
   const UserScreen({super.key});
 
   @override
